@@ -27,7 +27,10 @@ dependencies {
     compile 'com.google.appengine:appengine-endpoints-deps:1.9.42'
     compile 'javax.servlet:servlet-api:2.5'
     compile 'com.google.api-client:google-api-client:1.23.0'
+    compile 'com.google.api-client:google-api-client-appengine:1.23.0'
     compile 'com.google.http-client:google-http-client-android:1.23.0'
+    compile group:'com.google.api.client',name:'google-api-client-repackaged-com-google-common-base',version:'1.2.3-alpha'
+    compile project(":jokelib")
 }
 
 appengine {
